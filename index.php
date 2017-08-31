@@ -42,7 +42,7 @@ foreach ($events as $event) {
     continue;
   }
 
-  // parrot message
+  // parrot
   $bot->replyText($event->getReplyToken(), $event->getText());
 }
 ?>
