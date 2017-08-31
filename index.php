@@ -3,7 +3,7 @@
 require_once __DIR__.'/vendor/autoload.php';
 
 // load functions
-require_once __DIR__.'basic_function.php';
+require __DIR__.'basic_function.php';
 
 // instancing "CurlHTTPClient" using access token
 $httpClient = new \LINE\LINEBot\HTTPClient\CurlHTTPClient(getenv('CHANNEL_ACCESS_TOKEN'));
